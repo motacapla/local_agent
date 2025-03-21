@@ -106,7 +106,6 @@ tool_names = [tool.name for tool in tools] + usable_default_tool_names
 
 prompt = f"""あなたは優秀なAIアシスタントです。与えられたタスクを解決してください。必要に応じて提供されているツールを使用してください。
 日本語で回答してください。
-タスク: {input}
 利用可能なツール: {tool_names}
 """
 
