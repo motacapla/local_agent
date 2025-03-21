@@ -1,0 +1,16 @@
+[scripts]
+tools = "python src/tools.py"
+agent = "python src/agent.py"
+
+[packages]
+langchain = "*"
+langchain-community = "*"
+langchain-ollama = "*"
+beautifulsoup4 = "*"
+wikipedia = "*"
+google-api-python-client = "*"
+langchain-openai = "*"
+langgraph = "*"
+langchain-huggingface = "*"
+
+[dev-packages]
