@@ -66,6 +66,6 @@ class SimpleAgentGraph:
                 ],
             },
             self.config,
-            stream_mode="values",
+            # stream_mode="values",
         )
         return events
