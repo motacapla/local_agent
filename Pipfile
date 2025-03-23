@@ -1,6 +1,7 @@
 [scripts]
 tools = "python src/tools.py"
 agent = "python src/agent.py"
+test = "python src/test.py"
 
 [packages]
 langchain = "*"
@@ -12,5 +13,10 @@ google-api-python-client = "*"
 langchain-openai = "*"
 langgraph = "*"
 langchain-huggingface = "*"
+ipython = "*"
+playsound = "*"
+pyobjc = "*"
+langchain-anthropic = "*"
 
 [dev-packages]
+ipykernel = "*"
